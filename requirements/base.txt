@@ -11,3 +11,4 @@ python-dateutil
 six
 wheel
 django-paypal
+gunicorn==19.4
