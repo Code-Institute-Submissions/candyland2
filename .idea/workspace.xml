@@ -2,8 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4522a8e-c644-4549-bee1-1497cb86f53f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/CandyLand/urls.py" afterPath="$PROJECT_DIR$/CandyLand/urls.py" />
-      <change beforePath="$PROJECT_DIR$/builderror.txt" afterPath="$PROJECT_DIR$/builderror.txt" />
+      <change beforePath="$PROJECT_DIR$/CandyLand_app/templates/gallery.html" afterPath="$PROJECT_DIR$/CandyLand_app/templates/gallery.html" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/Allsorts-min.jpg" afterPath="$PROJECT_DIR$/static/images/Allsorts-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/BonBon-min.jpg" afterPath="$PROJECT_DIR$/static/images/BonBon-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/ChocLimes-min.jpg" afterPath="$PROJECT_DIR$/static/images/ChocLimes-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/ChristmasCones001-min.jpg" afterPath="$PROJECT_DIR$/static/images/ChristmasCones001-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/ChristmasFayre-min.jpg" afterPath="$PROJECT_DIR$/static/images/ChristmasFayre-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/ColaBottles-min.jpg" afterPath="$PROJECT_DIR$/static/images/ColaBottles-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/CoughCandy-min.jpg" afterPath="$PROJECT_DIR$/static/images/CoughCandy-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/Fangs-min.jpg" afterPath="$PROJECT_DIR$/static/images/Fangs-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/FizzyCherries-min.jpg" afterPath="$PROJECT_DIR$/static/images/FizzyCherries-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/FoamBananas-min.jpg" afterPath="$PROJECT_DIR$/static/images/FoamBananas-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/FriedEggs-min.jpg" afterPath="$PROJECT_DIR$/static/images/FriedEggs-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/FruitJellies-min.jpg" afterPath="$PROJECT_DIR$/static/images/FruitJellies-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/Fudge-min.jpg" afterPath="$PROJECT_DIR$/static/images/Fudge-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/Humbugs-min.jpg" afterPath="$PROJECT_DIR$/static/images/Humbugs-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/Jazzies-min.jpg" afterPath="$PROJECT_DIR$/static/images/Jazzies-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/JellyBabies-min.jpg" afterPath="$PROJECT_DIR$/static/images/JellyBabies-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/JellyBeans-min.jpg" afterPath="$PROJECT_DIR$/static/images/JellyBeans-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/KolaCubes-min.jpg" afterPath="$PROJECT_DIR$/static/images/KolaCubes-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/LemonBonBons-min.jpg" afterPath="$PROJECT_DIR$/static/images/LemonBonBons-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/Letters-min.jpg" afterPath="$PROJECT_DIR$/static/images/Letters-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/Lips-min.jpg" afterPath="$PROJECT_DIR$/static/images/Lips-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/MallowPoles-min.jpg" afterPath="$PROJECT_DIR$/static/images/MallowPoles-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/MarsMallows-min.jpg" afterPath="$PROJECT_DIR$/static/images/MarsMallows-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/MilkBottles-min.jpg" afterPath="$PROJECT_DIR$/static/images/MilkBottles-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/MilkshakeBottles-min.jpg" afterPath="$PROJECT_DIR$/static/images/MilkshakeBottles-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/MiniMallows-min.jpg" afterPath="$PROJECT_DIR$/static/images/MiniMallows-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/Mushrooms-min.jpg" afterPath="$PROJECT_DIR$/static/images/Mushrooms-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/NewLivery-min.jpg" afterPath="$PROJECT_DIR$/static/images/NewLivery-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/Nougat-min.jpg" afterPath="$PROJECT_DIR$/static/images/Nougat-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/PeanutBrittle-min.jpg" afterPath="$PROJECT_DIR$/static/images/PeanutBrittle-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/PearDrops-min.jpg" afterPath="$PROJECT_DIR$/static/images/PearDrops-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/RhubarbCustard-min.jpg" afterPath="$PROJECT_DIR$/static/images/RhubarbCustard-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/RosyApples-min.jpg" afterPath="$PROJECT_DIR$/static/images/RosyApples-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/Saucers-min.jpg" afterPath="$PROJECT_DIR$/static/images/Saucers-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/SherbetLemons-min.jpg" afterPath="$PROJECT_DIR$/static/images/SherbetLemons-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/Shrimps-min.jpg" afterPath="$PROJECT_DIR$/static/images/Shrimps-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/Strawbs-min.jpg" afterPath="$PROJECT_DIR$/static/images/Strawbs-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/SugaredAlmonds-min.jpg" afterPath="$PROJECT_DIR$/static/images/SugaredAlmonds-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/TeddyBears-min.jpg" afterPath="$PROJECT_DIR$/static/images/TeddyBears-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/TurkishDelight-min.jpg" afterPath="$PROJECT_DIR$/static/images/TurkishDelight-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/WhiteMice-min.jpg" afterPath="$PROJECT_DIR$/static/images/WhiteMice-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/WineGums-min.jpg" afterPath="$PROJECT_DIR$/static/images/WineGums-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/carousel/ChristmasFayre-minCRS.jpg" afterPath="$PROJECT_DIR$/static/images/carousel/ChristmasFayre-minCRS.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/carousel/NewLivery-minCRS.jpg" afterPath="$PROJECT_DIR$/static/images/carousel/NewLivery-minCRS.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/carousel/wedding001-minCRS.jpg" afterPath="$PROJECT_DIR$/static/images/carousel/wedding001-minCRS.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/carousel/wedding003-minCRS.jpg" afterPath="$PROJECT_DIR$/static/images/carousel/wedding003-minCRS.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/carousel/wedding004-minCRS.jpg" afterPath="$PROJECT_DIR$/static/images/carousel/wedding004-minCRS.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/carousel/wedding005-minCRS.jpg" afterPath="$PROJECT_DIR$/static/images/carousel/wedding005-minCRS.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/cart001-min.jpg" afterPath="$PROJECT_DIR$/static/images/cart001-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/cart002-min.jpg" afterPath="$PROJECT_DIR$/static/images/cart002-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/cart003-min.jpg" afterPath="$PROJECT_DIR$/static/images/cart003-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/cart004-min.jpg" afterPath="$PROJECT_DIR$/static/images/cart004-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/cart005-min.jpg" afterPath="$PROJECT_DIR$/static/images/cart005-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/cart006-min.jpg" afterPath="$PROJECT_DIR$/static/images/cart006-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/cart007-min.jpg" afterPath="$PROJECT_DIR$/static/images/cart007-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/cart008-min.jpg" afterPath="$PROJECT_DIR$/static/images/cart008-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/cart009-min.jpg" afterPath="$PROJECT_DIR$/static/images/cart009-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/coconutMushrooms-min.jpg" afterPath="$PROJECT_DIR$/static/images/coconutMushrooms-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/cones001-min.jpg" afterPath="$PROJECT_DIR$/static/images/cones001-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/cones002-min.jpg" afterPath="$PROJECT_DIR$/static/images/cones002-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/social/facebook.png" afterPath="$PROJECT_DIR$/static/images/social/facebook.png" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/social/googleplus.png" afterPath="$PROJECT_DIR$/static/images/social/googleplus.png" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/social/instagram.png" afterPath="$PROJECT_DIR$/static/images/social/instagram.png" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/social/twitter.png" afterPath="$PROJECT_DIR$/static/images/social/twitter.png" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/wedding001-min.jpg" afterPath="$PROJECT_DIR$/static/images/wedding001-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/wedding002-min.jpg" afterPath="$PROJECT_DIR$/static/images/wedding002-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/wedding003-min.jpg" afterPath="$PROJECT_DIR$/static/images/wedding003-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/wedding004-min.jpg" afterPath="$PROJECT_DIR$/static/images/wedding004-min.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/candyland/images/wedding005-min.jpg" afterPath="$PROJECT_DIR$/static/images/wedding005-min.jpg" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,103 +93,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CandyLand/urls.py">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CandyLand_app/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-              <folding>
-                <element signature="e#643#684#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="389">
+              <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CandyLand/settings.py">
+      <file leaf-file-name="gallery.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CandyLand_app/templates/gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="builderror.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/builderror.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="86" lean-forward="true" selection-start-line="9" selection-start-column="86" selection-end-line="9" selection-end-column="86" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="920">
-              <caret line="124" column="1" lean-forward="true" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dev.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings/dev.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="staging.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings/staging.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="40" lean-forward="true" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+            <state relative-caret-position="474">
+              <caret line="73" column="57" lean-forward="false" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -161,7 +149,6 @@
         <option value="$PROJECT_DIR$/settings/dev.py" />
         <option value="$PROJECT_DIR$/CandyLand_app/templates/base.html" />
         <option value="$PROJECT_DIR$/CandyLand_app/templates/bookus.html" />
-        <option value="$PROJECT_DIR$/CandyLand_app/templates/gallery.html" />
         <option value="$PROJECT_DIR$/CandyLand_app/templates/home.html" />
         <option value="$PROJECT_DIR$/CandyLand_app/templates/login.html" />
         <option value="$PROJECT_DIR$/CandyLand_app/templates/packages.html" />
@@ -199,6 +186,7 @@
         <option value="$PROJECT_DIR$/Procfile.local" />
         <option value="$PROJECT_DIR$/CandyLand/settings.py" />
         <option value="$PROJECT_DIR$/CandyLand/urls.py" />
+        <option value="$PROJECT_DIR$/CandyLand_app/templates/gallery.html" />
       </list>
     </option>
   </component>
@@ -241,12 +229,18 @@
             <path>
               <item name="candyland2" type="b2602c69:ProjectViewProjectNode" />
               <item name="candyland2" type="462c0819:PsiDirectoryNode" />
-              <item name="CandyLand" type="462c0819:PsiDirectoryNode" />
+              <item name="CandyLand_app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="candyland2" type="b2602c69:ProjectViewProjectNode" />
               <item name="candyland2" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
+              <item name="CandyLand_app" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="candyland2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="candyland2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,19 +257,19 @@
     <property name="SearchEverywhereHistoryKey" value="python-2.7.13&#9;FILE&#9;file:///Users/Rich/PycharmProjects/virtualenv/candyenv/lib/python2.7/lib-dynload/Python-2.7.13-py2.7.egg-info&#10;PAYPAL_NOTIFY_URL&#9;null&#9;null&#10;post&#9;FILE&#9;file:///Users/Rich/PycharmProjects/CandyLand/CandyLand_app/templates/forum/post.html&#10;post.html&#9;FILE&#9;file:///Users/Rich/PycharmProjects/CandyLand/CandyLand_app/templates/forum/post.html" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/CandyLand_app" />
-      <recent name="$PROJECT_DIR$/static" />
-      <recent name="$PROJECT_DIR$/templates/candyland" />
-      <recent name="$PROJECT_DIR$/CandyLand_app/static" />
-      <recent name="$PROJECT_DIR$/CandyLand_app/templates" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/CandyLand_app/templates" />
       <recent name="$PROJECT_DIR$/static/css/font-awesome-4.7.0/css" />
       <recent name="$PROJECT_DIR$/static/css" />
       <recent name="$PROJECT_DIR$/static/js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/CandyLand_app" />
+      <recent name="$PROJECT_DIR$/templates/candyland" />
+      <recent name="$PROJECT_DIR$/CandyLand_app/static" />
+      <recent name="$PROJECT_DIR$/CandyLand_app/templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -380,7 +374,7 @@
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.516129" sideWeight="0.48281643" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32697946" sideWeight="0.49659285" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22317597" sideWeight="0.48637137" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2228739" sideWeight="0.48637137" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3224254" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -443,84 +437,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/accounts/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paypal_store/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paypal_store/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paypal_store/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paypal_store/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polls/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polls/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paypal_store/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polls/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polls/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="29" column="76" lean-forward="false" selection-start-line="29" selection-start-column="76" selection-end-line="29" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accounts/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -631,21 +547,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CandyLand_app/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CandyLand_app/templates/enquiry_template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CandyLand_app/templates/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -753,14 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings/dev.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/builderror.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -777,26 +671,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="124" column="1" lean-forward="true" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings/staging.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CandyLand/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -809,13 +687,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/settings/dev.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="50" column="41" lean-forward="false" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/styling.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CandyLand/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="82" column="42" lean-forward="false" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CandyLand/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        <state relative-caret-position="212">
+          <caret line="44" column="36" lean-forward="true" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
           <folding>
-            <element signature="e#643#684#0" expanded="true" />
+            <element signature="e#643#684#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/carousel/wedding001-minCRS.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/carousel/ChristmasFayre-minCRS.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/carousel/wedding005-minCRS.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/carousel/wedding004-minCRS.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/carousel/wedding003-minCRS.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/carousel/NewLivery-minCRS.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/social/googleplus.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/social/instagram.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/social/facebook.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/social/twitter.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CandyLand_app/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CandyLand_app/templates/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="73" column="57" lean-forward="false" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
