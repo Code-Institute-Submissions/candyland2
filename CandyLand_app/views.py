@@ -10,33 +10,27 @@ from CandyLand_app import models
 # Create your views here.
 
 
+
 def get_base(request):
     return render(request, 'base.html')
-
 
 def get_home(request):
     return render(request, 'home.html')
 
-
 def get_packages(request):
     return render(request, 'packages.html')
-
 
 def get_gallery(request):
     return render(request, 'gallery.html')
 
-
 def get_sweetlist(request):
     return render(request, 'sweetlist.html')
-
 
 def get_bookus(request):
     return render(request, 'bookus.html')
 
-
 def get_members(request):
-    return render(request, 'profile.html')
-
+    return render(request, 'members.html')
 
 def enquiry(request):
     form_class = EnquiryForm
@@ -70,9 +64,9 @@ def enquiry(request):
             email = EmailMessage(
                 "New contact form submission",
                 content,
-                "Your website" + '',
+                "Your website" +'',
                 ['youremail@gmaol.com'],
-                headers={'reply-To': email}
+                headers= {'reply-To': email}
             )
             email.send()
             return redirect('/thanks')
@@ -80,7 +74,6 @@ def enquiry(request):
     return render(request, 'bookus.html', {
         'form': form_class,
     })
-
 
 def thanks(request):
     return render(request, 'thanks.html')
