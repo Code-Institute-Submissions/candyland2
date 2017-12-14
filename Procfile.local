@@ -1,1 +1,1 @@
-web: gunicorn candylnd2.wsgi:application
+web: gunicorn CandyLand.wsgi:application
