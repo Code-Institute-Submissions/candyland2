@@ -25,7 +25,7 @@ SECRET_KEY = 'c5_rz84&(hmyx=tdh_*t&2)#g%5ixdc393h2=75+--a6#a3^wb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [candyland2.herokuapp.com]
 
 
 # Application definition

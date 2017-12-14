@@ -1,7 +1,7 @@
 arrow
 beautifulsoup4
 django-disqus
-Django
+Django==1.11.6
 django-emoticons
 djangorestframework
 django-forms-bootstrap
