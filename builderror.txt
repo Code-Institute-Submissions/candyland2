@@ -1,101 +1,101 @@
-2017-12-14T12:05:14.961722+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
-2017-12-14T12:05:14.961725+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 43, in inner
-2017-12-14T12:05:14.961726+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 93, in response_for_exception
-2017-12-14T12:05:14.961724+00:00 app[web.1]:     response = self.get_response(request)
-2017-12-14T12:05:14.961726+00:00 app[web.1]:     response = response_for_exception(request, exc)
-2017-12-14T12:05:14.961728+00:00 app[web.1]:     callback, param_dict = resolver.resolve_error_handler(500)
-2017-12-14T12:05:14.961728+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 142, in handle_uncaught_exception
-2017-12-14T12:05:14.961724+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/deprecation.py", line 140, in __call__
-2017-12-14T12:05:14.961727+00:00 app[web.1]:     response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
-2017-12-14T12:05:14.961729+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/urls/resolvers.py", line 418, in resolve_error_handler
-2017-12-14T12:05:14.961730+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
-2017-12-14T12:05:14.961730+00:00 app[web.1]:     callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
-2017-12-14T12:05:14.961732+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
-2017-12-14T12:05:14.961733+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/importlib/__init__.py", line 37, in import_module
-2017-12-14T12:05:14.961732+00:00 app[web.1]:     return import_module(self.urlconf_name)
-2017-12-14T12:05:14.961731+00:00 app[web.1]:     res = instance.__dict__[self.name] = self.func(instance)
-2017-12-14T12:05:14.961733+00:00 app[web.1]:     __import__(name)
-2017-12-14T12:05:14.961735+00:00 app[web.1]:     from settings.base import MEDIA_ROOT
-2017-12-14T12:05:14.961736+00:00 app[web.1]:     ALLOWED_HOSTS = [candyland2.herokuapp.com]
-2017-12-14T12:05:14.961736+00:00 app[web.1]: NameError: name 'candyland2' is not defined
-2017-12-14T12:05:14.962522+00:00 app[web.1]: Traceback (most recent call last):
-2017-12-14T12:05:14.962521+00:00 app[web.1]: Internal Server Error: /
-2017-12-14T12:05:14.962523+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
-2017-12-14T12:05:14.962524+00:00 app[web.1]:     response = get_response(request)
-2017-12-14T12:05:14.961735+00:00 app[web.1]:   File "/app/CandyLand/settings.py", line 28, in <module>
-2017-12-14T12:05:14.962525+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/deprecation.py", line 140, in __call__
-2017-12-14T12:05:14.962526+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 43, in inner
-2017-12-14T12:05:14.962526+00:00 app[web.1]:     response = response_for_exception(request, exc)
-2017-12-14T12:05:14.962527+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 93, in response_for_exception
-2017-12-14T12:05:14.962528+00:00 app[web.1]:     response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
-2017-12-14T12:05:14.962529+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 142, in handle_uncaught_exception
-2017-12-14T12:05:14.962531+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
-2017-12-14T12:05:14.962531+00:00 app[web.1]:     callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
-2017-12-14T12:05:14.962529+00:00 app[web.1]:     callback, param_dict = resolver.resolve_error_handler(500)
-2017-12-14T12:05:14.962532+00:00 app[web.1]:     res = instance.__dict__[self.name] = self.func(instance)
-2017-12-14T12:05:14.962530+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/urls/resolvers.py", line 418, in resolve_error_handler
-2017-12-14T12:05:14.962532+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
-2017-12-14T12:05:14.962533+00:00 app[web.1]:     return import_module(self.urlconf_name)
-2017-12-14T12:05:14.962534+00:00 app[web.1]:     __import__(name)
-2017-12-14T12:05:14.962525+00:00 app[web.1]:     response = self.get_response(request)
-2017-12-14T12:05:14.962534+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/importlib/__init__.py", line 37, in import_module
-2017-12-14T12:05:14.962535+00:00 app[web.1]:   File "/app/CandyLand/urls.py", line 25, in <module>
-2017-12-14T12:05:14.962542+00:00 app[web.1]:     ALLOWED_HOSTS = [candyland2.herokuapp.com]
-2017-12-14T12:05:14.962536+00:00 app[web.1]:   File "/app/CandyLand/settings.py", line 28, in <module>
-2017-12-14T12:05:14.962535+00:00 app[web.1]:     from settings.base import MEDIA_ROOT
-2017-12-14T12:05:14.962543+00:00 app[web.1]: NameError: name 'candyland2' is not defined
-2017-12-14T12:05:14.963243+00:00 app[web.1]: Traceback (most recent call last):
-2017-12-14T12:05:14.963241+00:00 app[web.1]: Internal Server Error: /
-2017-12-14T12:05:14.963244+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
-2017-12-14T12:05:14.963245+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/deprecation.py", line 140, in __call__
-2017-12-14T12:05:14.963244+00:00 app[web.1]:     response = get_response(request)
-2017-12-14T12:05:14.963246+00:00 app[web.1]:     response = self.get_response(request)
-2017-12-14T12:05:14.963246+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 43, in inner
-2017-12-14T12:05:14.963248+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 93, in response_for_exception
-2017-12-14T12:05:14.963249+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 142, in handle_uncaught_exception
-2017-12-14T12:05:14.963248+00:00 app[web.1]:     response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
-2017-12-14T12:05:14.963250+00:00 app[web.1]:     callback, param_dict = resolver.resolve_error_handler(500)
-2017-12-14T12:05:14.961734+00:00 app[web.1]:   File "/app/CandyLand/urls.py", line 25, in <module>
-2017-12-14T12:05:14.963251+00:00 app[web.1]:     callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
-2017-12-14T12:05:14.963250+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/urls/resolvers.py", line 418, in resolve_error_handler
-2017-12-14T12:05:14.963252+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
-2017-12-14T12:05:14.963252+00:00 app[web.1]:     res = instance.__dict__[self.name] = self.func(instance)
-2017-12-14T12:05:14.963253+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
-2017-12-14T12:05:14.963254+00:00 app[web.1]:     return import_module(self.urlconf_name)
-2017-12-14T12:05:14.963254+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/importlib/__init__.py", line 37, in import_module
-2017-12-14T12:05:14.963247+00:00 app[web.1]:     response = response_for_exception(request, exc)
-2017-12-14T12:05:14.963255+00:00 app[web.1]:     __import__(name)
-2017-12-14T12:05:14.963255+00:00 app[web.1]:   File "/app/CandyLand/urls.py", line 25, in <module>
-2017-12-14T12:05:14.963256+00:00 app[web.1]:     from settings.base import MEDIA_ROOT
-2017-12-14T12:05:14.963256+00:00 app[web.1]:   File "/app/CandyLand/settings.py", line 28, in <module>
-2017-12-14T12:05:14.963258+00:00 app[web.1]: NameError: name 'candyland2' is not defined
-2017-12-14T12:05:14.963257+00:00 app[web.1]:     ALLOWED_HOSTS = [candyland2.herokuapp.com]
-2017-12-14T12:05:14.964539+00:00 app[web.1]: Traceback (most recent call last):
-2017-12-14T12:05:14.964538+00:00 app[web.1]: [2017-12-14 12:05:14 +0000] [10] [ERROR] Error handling request /
-2017-12-14T12:05:14.964542+00:00 app[web.1]:     respiter = self.wsgi(environ, resp.start_response)
-2017-12-14T12:05:14.964541+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 171, in handle_request
-2017-12-14T12:05:14.964541+00:00 app[web.1]:     self.handle_request(listener, req, client, addr)
-2017-12-14T12:05:14.964540+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 130, in handle
-2017-12-14T12:05:14.964543+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 157, in __call__
-2017-12-14T12:05:14.964544+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/base.py", line 124, in get_response
-2017-12-14T12:05:14.964545+00:00 app[web.1]:     response = self._middleware_chain(request)
-2017-12-14T12:05:14.964545+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 43, in inner
-2017-12-14T12:05:14.964546+00:00 app[web.1]:     response = response_for_exception(request, exc)
-2017-12-14T12:05:14.964546+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 93, in response_for_exception
-2017-12-14T12:05:14.964548+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 142, in handle_uncaught_exception
-2017-12-14T12:05:14.964547+00:00 app[web.1]:     response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
-2017-12-14T12:05:14.964549+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/urls/resolvers.py", line 418, in resolve_error_handler
-2017-12-14T12:05:14.964548+00:00 app[web.1]:     callback, param_dict = resolver.resolve_error_handler(500)
-2017-12-14T12:05:14.964550+00:00 app[web.1]:     callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
-2017-12-14T12:05:14.964550+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
-2017-12-14T12:05:14.964551+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
-2017-12-14T12:05:14.964551+00:00 app[web.1]:     res = instance.__dict__[self.name] = self.func(instance)
-2017-12-14T12:05:14.964552+00:00 app[web.1]:     return import_module(self.urlconf_name)
-2017-12-14T12:05:14.964543+00:00 app[web.1]:     response = self.get_response(request)
-2017-12-14T12:05:14.964553+00:00 app[web.1]:     __import__(name)
-2017-12-14T12:05:14.964552+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/importlib/__init__.py", line 37, in import_module
-2017-12-14T12:05:14.964556+00:00 app[web.1]: NameError: name 'candyland2' is not defined
-2017-12-14T12:05:14.964555+00:00 app[web.1]:   File "/app/CandyLand/settings.py", line 28, in <module>
-2017-12-14T12:05:14.964554+00:00 app[web.1]:   File "/app/CandyLand/urls.py", line 25, in <module>
-2017-12-14T12:05:14.964555+00:00 app[web.1]:     ALLOWED_HOSTS = [candyland2.herokuapp.com]
-2017-12-14T12:05:14.964554+00:00 app[web.1]:     from settings.base import MEDIA_ROOT
+2017-12-14T12:10:33.149467+00:00 app[web.1]:     __import__(name)
+2017-12-14T12:10:33.149467+00:00 app[web.1]:   File "/app/CandyLand/urls.py", line 25, in <module>
+2017-12-14T12:10:33.149468+00:00 app[web.1]:     from settings.base import MEDIA_ROOT
+2017-12-14T12:10:33.149468+00:00 app[web.1]: ImportError: No module named base
+2017-12-14T12:10:33.149801+00:00 app[web.1]: Internal Server Error: /
+2017-12-14T12:10:33.149803+00:00 app[web.1]: Traceback (most recent call last):
+2017-12-14T12:10:33.149803+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+2017-12-14T12:10:33.149804+00:00 app[web.1]:     response = get_response(request)
+2017-12-14T12:10:33.149804+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/deprecation.py", line 140, in __call__
+2017-12-14T12:10:33.149804+00:00 app[web.1]:     response = self.get_response(request)
+2017-12-14T12:10:33.149805+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 43, in inner
+2017-12-14T12:10:33.149805+00:00 app[web.1]:     response = response_for_exception(request, exc)
+2017-12-14T12:10:33.149806+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 93, in response_for_exception
+2017-12-14T12:10:33.149806+00:00 app[web.1]:     response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+2017-12-14T12:10:33.149807+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 142, in handle_uncaught_exception
+2017-12-14T12:10:33.149807+00:00 app[web.1]:     callback, param_dict = resolver.resolve_error_handler(500)
+2017-12-14T12:10:33.149808+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/urls/resolvers.py", line 418, in resolve_error_handler
+2017-12-14T12:10:33.149808+00:00 app[web.1]:     callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+2017-12-14T12:10:33.149809+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+2017-12-14T12:10:33.149809+00:00 app[web.1]:     res = instance.__dict__[self.name] = self.func(instance)
+2017-12-14T12:10:33.149809+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+2017-12-14T12:10:33.149810+00:00 app[web.1]:     return import_module(self.urlconf_name)
+2017-12-14T12:10:33.149810+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2017-12-14T12:10:33.149811+00:00 app[web.1]:     __import__(name)
+2017-12-14T12:10:33.149811+00:00 app[web.1]:   File "/app/CandyLand/urls.py", line 25, in <module>
+2017-12-14T12:10:33.149811+00:00 app[web.1]:     from settings.base import MEDIA_ROOT
+2017-12-14T12:10:33.149812+00:00 app[web.1]: ImportError: No module named base
+2017-12-14T12:10:33.150131+00:00 app[web.1]: Internal Server Error: /
+2017-12-14T12:10:33.150132+00:00 app[web.1]: Traceback (most recent call last):
+2017-12-14T12:10:33.150132+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+2017-12-14T12:10:33.150133+00:00 app[web.1]:     response = get_response(request)
+2017-12-14T12:10:33.150133+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/deprecation.py", line 140, in __call__
+2017-12-14T12:10:33.150133+00:00 app[web.1]:     response = self.get_response(request)
+2017-12-14T12:10:33.150134+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 43, in inner
+2017-12-14T12:10:33.150134+00:00 app[web.1]:     response = response_for_exception(request, exc)
+2017-12-14T12:10:33.150134+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 93, in response_for_exception
+2017-12-14T12:10:33.150135+00:00 app[web.1]:     response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+2017-12-14T12:10:33.150135+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 142, in handle_uncaught_exception
+2017-12-14T12:10:33.150136+00:00 app[web.1]:     callback, param_dict = resolver.resolve_error_handler(500)
+2017-12-14T12:10:33.150136+00:00 app[web.1]:     callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+2017-12-14T12:10:33.150137+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+2017-12-14T12:10:33.150136+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/urls/resolvers.py", line 418, in resolve_error_handler
+2017-12-14T12:10:33.150138+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+2017-12-14T12:10:33.150137+00:00 app[web.1]:     res = instance.__dict__[self.name] = self.func(instance)
+2017-12-14T12:10:33.150138+00:00 app[web.1]:     return import_module(self.urlconf_name)
+2017-12-14T12:10:33.150138+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2017-12-14T12:10:33.150139+00:00 app[web.1]:     __import__(name)
+2017-12-14T12:10:33.150139+00:00 app[web.1]:   File "/app/CandyLand/urls.py", line 25, in <module>
+2017-12-14T12:10:33.150139+00:00 app[web.1]:     from settings.base import MEDIA_ROOT
+2017-12-14T12:10:33.150140+00:00 app[web.1]: ImportError: No module named base
+2017-12-14T12:10:33.150504+00:00 app[web.1]: Internal Server Error: /
+2017-12-14T12:10:33.150505+00:00 app[web.1]: Traceback (most recent call last):
+2017-12-14T12:10:33.150505+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+2017-12-14T12:10:33.150505+00:00 app[web.1]:     response = get_response(request)
+2017-12-14T12:10:33.150506+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/deprecation.py", line 140, in __call__
+2017-12-14T12:10:33.150506+00:00 app[web.1]:     response = self.get_response(request)
+2017-12-14T12:10:33.150507+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 43, in inner
+2017-12-14T12:10:33.150507+00:00 app[web.1]:     response = response_for_exception(request, exc)
+2017-12-14T12:10:33.150521+00:00 app[web.1]:     response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+2017-12-14T12:10:33.150520+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 93, in response_for_exception
+2017-12-14T12:10:33.150521+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 142, in handle_uncaught_exception
+2017-12-14T12:10:33.150522+00:00 app[web.1]:     callback, param_dict = resolver.resolve_error_handler(500)
+2017-12-14T12:10:33.150523+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/urls/resolvers.py", line 418, in resolve_error_handler
+2017-12-14T12:10:33.150523+00:00 app[web.1]:     callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+2017-12-14T12:10:33.150524+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+2017-12-14T12:10:33.150525+00:00 app[web.1]:     res = instance.__dict__[self.name] = self.func(instance)
+2017-12-14T12:10:33.150532+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+2017-12-14T12:10:33.150533+00:00 app[web.1]:     return import_module(self.urlconf_name)
+2017-12-14T12:10:33.150535+00:00 app[web.1]:     __import__(name)
+2017-12-14T12:10:33.150535+00:00 app[web.1]:   File "/app/CandyLand/urls.py", line 25, in <module>
+2017-12-14T12:10:33.150534+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2017-12-14T12:10:33.150535+00:00 app[web.1]:     from settings.base import MEDIA_ROOT
+2017-12-14T12:10:33.150536+00:00 app[web.1]: ImportError: No module named base
+2017-12-14T12:10:33.150889+00:00 app[web.1]: [2017-12-14 12:10:33 +0000] [9] [ERROR] Error handling request /
+2017-12-14T12:10:33.150890+00:00 app[web.1]: Traceback (most recent call last):
+2017-12-14T12:10:33.150890+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 130, in handle
+2017-12-14T12:10:33.150891+00:00 app[web.1]:     self.handle_request(listener, req, client, addr)
+2017-12-14T12:10:33.150891+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 171, in handle_request
+2017-12-14T12:10:33.150892+00:00 app[web.1]:     respiter = self.wsgi(environ, resp.start_response)
+2017-12-14T12:10:33.150892+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 157, in __call__
+2017-12-14T12:10:33.150893+00:00 app[web.1]:     response = self.get_response(request)
+2017-12-14T12:10:33.150893+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/base.py", line 124, in get_response
+2017-12-14T12:10:33.150894+00:00 app[web.1]:     response = self._middleware_chain(request)
+2017-12-14T12:10:33.150894+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 43, in inner
+2017-12-14T12:10:33.150894+00:00 app[web.1]:     response = response_for_exception(request, exc)
+2017-12-14T12:10:33.150895+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 93, in response_for_exception
+2017-12-14T12:10:33.150895+00:00 app[web.1]:     response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+2017-12-14T12:10:33.150896+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 142, in handle_uncaught_exception
+2017-12-14T12:10:33.150896+00:00 app[web.1]:     callback, param_dict = resolver.resolve_error_handler(500)
+2017-12-14T12:10:33.150896+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/urls/resolvers.py", line 418, in resolve_error_handler
+2017-12-14T12:10:33.150897+00:00 app[web.1]:     callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+2017-12-14T12:10:33.150897+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+2017-12-14T12:10:33.150898+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+2017-12-14T12:10:33.150897+00:00 app[web.1]:     res = instance.__dict__[self.name] = self.func(instance)
+2017-12-14T12:10:33.150898+00:00 app[web.1]:     return import_module(self.urlconf_name)
+2017-12-14T12:10:33.150899+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2017-12-14T12:10:33.150899+00:00 app[web.1]:     __import__(name)
+2017-12-14T12:10:33.150899+00:00 app[web.1]:   File "/app/CandyLand/urls.py", line 25, in <module>
+2017-12-14T12:10:33.150900+00:00 app[web.1]:     from settings.base import MEDIA_ROOT
+2017-12-14T12:10:33.150900+00:00 app[web.1]: ImportError: No module named base
+2017-12-14T12:10:33.152921+00:00 heroku[router]: at=info method=GET path="/" host=candyland2.herokuapp.com request_id=ff5904b6-4af9-422f-883f-bca4dfe748bc fwd="2.25.81.139" dyno=web.1 connect=0ms service=5ms status=500 bytes=244 protocol=https
