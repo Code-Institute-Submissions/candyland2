@@ -23,7 +23,7 @@ from sweetsubs import views as sweetsubs_views
 from threads import views as forum_views
 from django.views.static import serve
 from CandyLand.settings import MEDIA_ROOT
-
+from django.conf import settings
 
 
 from CandyLand_app import views
