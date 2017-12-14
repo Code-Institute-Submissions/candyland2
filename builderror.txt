@@ -1,101 +1,101 @@
-2017-12-14T11:33:02.729531+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
-2017-12-14T11:33:02.729531+00:00 app[web.1]:     self.load_wsgi()
-2017-12-14T11:33:02.729532+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
-2017-12-14T11:33:02.729532+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
-2017-12-14T11:33:02.729533+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
-2017-12-14T11:33:02.729533+00:00 app[web.1]:     self.callable = self.load()
-2017-12-14T11:33:02.729533+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
-2017-12-14T11:33:02.729534+00:00 app[web.1]:     return self.load_wsgiapp()
-2017-12-14T11:33:02.729534+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
-2017-12-14T11:33:02.729534+00:00 app[web.1]:     return util.import_app(self.app_uri)
-2017-12-14T11:33:02.729535+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/util.py", line 354, in import_app
-2017-12-14T11:33:02.729535+00:00 app[web.1]:     __import__(module)
-2017-12-14T11:33:02.729535+00:00 app[web.1]: ImportError: No module named candyland2.wsgi
-2017-12-14T11:33:02.729595+00:00 app[web.1]: [2017-12-14 11:33:02 +0000] [9] [INFO] Worker exiting (pid: 9)
-2017-12-14T11:33:02.746700+00:00 app[web.1]: Traceback (most recent call last):
-2017-12-14T11:33:02.746707+00:00 app[web.1]:   File "/app/.heroku/python/bin/gunicorn", line 11, in <module>
-2017-12-14T11:33:02.746755+00:00 app[web.1]:     sys.exit(run())
-2017-12-14T11:33:02.746756+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 74, in run
-2017-12-14T11:33:02.746842+00:00 app[web.1]:     WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
-2017-12-14T11:33:02.746842+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/app/base.py", line 192, in run
-2017-12-14T11:33:02.746891+00:00 app[web.1]:     super(Application, self).run()
-2017-12-14T11:33:02.746892+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/app/base.py", line 72, in run
-2017-12-14T11:33:02.746895+00:00 app[web.1]:     Arbiter(self).run()
-2017-12-14T11:33:02.746897+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/arbiter.py", line 179, in run
-2017-12-14T11:33:02.746940+00:00 app[web.1]:     self.manage_workers()
-2017-12-14T11:33:02.746941+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/arbiter.py", line 482, in manage_workers
-2017-12-14T11:33:02.747013+00:00 app[web.1]:     self.spawn_workers()
-2017-12-14T11:33:02.747014+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/arbiter.py", line 549, in spawn_workers
-2017-12-14T11:33:02.747076+00:00 app[web.1]:     time.sleep(0.1 * random.random())
-2017-12-14T11:33:02.747079+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/arbiter.py", line 219, in handle_chld
-2017-12-14T11:33:02.747120+00:00 app[web.1]:     self.reap_workers()
-2017-12-14T11:33:02.747122+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/arbiter.py", line 464, in reap_workers
-2017-12-14T11:33:02.747188+00:00 app[web.1]:     raise HaltServer(reason, self.WORKER_BOOT_ERROR)
-2017-12-14T11:33:02.747249+00:00 app[web.1]: gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
-2017-12-14T11:33:07.930864+00:00 heroku[web.1]: Starting process with command `gunicorn candyland2.wsgi:application`
-2017-12-14T11:33:10.427866+00:00 heroku[web.1]: State changed from starting to crashed
-2017-12-14T11:33:10.421380+00:00 heroku[web.1]: Process exited with status 1
-2017-12-14T11:33:10.329120+00:00 app[web.1]: [2017-12-14 11:33:10 +0000] [4] [INFO] Starting gunicorn 19.4.0
-2017-12-14T11:33:10.329680+00:00 app[web.1]: [2017-12-14 11:33:10 +0000] [4] [INFO] Using worker: sync
-2017-12-14T11:33:10.329561+00:00 app[web.1]: [2017-12-14 11:33:10 +0000] [4] [INFO] Listening at: http://0.0.0.0:45222 (4)
-2017-12-14T11:33:10.334157+00:00 app[web.1]: [2017-12-14 11:33:10 +0000] [9] [INFO] Booting worker with pid: 9
-2017-12-14T11:33:10.336372+00:00 app[web.1]: [2017-12-14 11:33:10 +0000] [9] [ERROR] Exception in worker process:
-2017-12-14T11:33:10.336373+00:00 app[web.1]: Traceback (most recent call last):
-2017-12-14T11:33:10.336374+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
-2017-12-14T11:33:10.336375+00:00 app[web.1]:     worker.init_process()
-2017-12-14T11:33:10.336376+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
-2017-12-14T11:33:10.336376+00:00 app[web.1]:     self.load_wsgi()
-2017-12-14T11:33:10.336377+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
-2017-12-14T11:33:10.336378+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
-2017-12-14T11:33:10.336378+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
-2017-12-14T11:33:10.336379+00:00 app[web.1]:     self.callable = self.load()
-2017-12-14T11:33:10.336380+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
-2017-12-14T11:33:10.336380+00:00 app[web.1]:     return self.load_wsgiapp()
-2017-12-14T11:33:10.336381+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
-2017-12-14T11:33:10.336382+00:00 app[web.1]:     return util.import_app(self.app_uri)
-2017-12-14T11:33:10.336382+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/util.py", line 354, in import_app
-2017-12-14T11:33:10.336383+00:00 app[web.1]:     __import__(module)
-2017-12-14T11:33:10.336383+00:00 app[web.1]: ImportError: No module named candyland2.wsgi
-2017-12-14T11:33:10.336384+00:00 app[web.1]: Traceback (most recent call last):
-2017-12-14T11:33:10.336385+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
-2017-12-14T11:33:10.336386+00:00 app[web.1]:     worker.init_process()
-2017-12-14T11:33:10.336386+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
-2017-12-14T11:33:10.336387+00:00 app[web.1]:     self.load_wsgi()
-2017-12-14T11:33:10.336387+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
-2017-12-14T11:33:10.336388+00:00 app[web.1]:     self.wsgi = self.app.wsgi()
-2017-12-14T11:33:10.336389+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
-2017-12-14T11:33:10.336389+00:00 app[web.1]:     self.callable = self.load()
-2017-12-14T11:33:10.336390+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
-2017-12-14T11:33:10.336390+00:00 app[web.1]:     return self.load_wsgiapp()
-2017-12-14T11:33:10.336391+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
-2017-12-14T11:33:10.336395+00:00 app[web.1]:     return util.import_app(self.app_uri)
-2017-12-14T11:33:10.336396+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/util.py", line 354, in import_app
-2017-12-14T11:33:10.336396+00:00 app[web.1]:     __import__(module)
-2017-12-14T11:33:10.336397+00:00 app[web.1]: ImportError: No module named candyland2.wsgi
-2017-12-14T11:33:10.336466+00:00 app[web.1]: [2017-12-14 11:33:10 +0000] [9] [INFO] Worker exiting (pid: 9)
-2017-12-14T11:33:10.353882+00:00 app[web.1]: Traceback (most recent call last):
-2017-12-14T11:33:10.353884+00:00 app[web.1]:   File "/app/.heroku/python/bin/gunicorn", line 11, in <module>
-2017-12-14T11:33:10.353889+00:00 app[web.1]:     sys.exit(run())
-2017-12-14T11:33:10.353892+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 74, in run
-2017-12-14T11:33:10.353920+00:00 app[web.1]:     WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
-2017-12-14T11:33:10.353921+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/app/base.py", line 192, in run
-2017-12-14T11:33:10.353957+00:00 app[web.1]:     super(Application, self).run()
-2017-12-14T11:33:10.353957+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/app/base.py", line 72, in run
-2017-12-14T11:33:10.353977+00:00 app[web.1]:     Arbiter(self).run()
-2017-12-14T11:33:10.353978+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/arbiter.py", line 179, in run
-2017-12-14T11:33:10.354016+00:00 app[web.1]:     self.manage_workers()
-2017-12-14T11:33:10.354018+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/arbiter.py", line 482, in manage_workers
-2017-12-14T11:33:10.354075+00:00 app[web.1]:     self.spawn_workers()
-2017-12-14T11:33:10.354076+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/arbiter.py", line 549, in spawn_workers
-2017-12-14T11:33:10.354142+00:00 app[web.1]:     time.sleep(0.1 * random.random())
-2017-12-14T11:33:10.354143+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/arbiter.py", line 219, in handle_chld
-2017-12-14T11:33:10.354178+00:00 app[web.1]:     self.reap_workers()
-2017-12-14T11:33:10.354178+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/arbiter.py", line 464, in reap_workers
-2017-12-14T11:33:10.354242+00:00 app[web.1]:     raise HaltServer(reason, self.WORKER_BOOT_ERROR)
-2017-12-14T11:33:10.354279+00:00 app[web.1]: gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
-2017-12-14T11:33:19.065511+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=candyland2.herokuapp.com request_id=cf9ba884-3945-445a-8128-5ae486bac32f fwd="2.25.81.139" dyno= connect= service= status=503 bytes= protocol=https
-2017-12-14T11:33:21.462985+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=candyland2.herokuapp.com request_id=99f63bc0-7835-4d50-a9d9-423dfe69f7e9 fwd="2.25.81.139" dyno= connect= service= status=503 bytes= protocol=https
-2017-12-14T11:35:05.385221+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=candyland2.herokuapp.com request_id=9901da83-0885-42b5-9d03-ab3e9a582b66 fwd="2.25.81.139" dyno= connect= service= status=503 bytes= protocol=https
-2017-12-14T11:35:03.303863+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=candyland2.herokuapp.com request_id=2749b716-f778-45a3-9c0f-97a326a6e4ec fwd="2.25.81.139" dyno= connect= service= status=503 bytes= protocol=https
-2017-12-14T11:35:23.071503+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=candyland2.herokuapp.com request_id=bc9de265-51f8-4909-b425-e91d3488eda9 fwd="2.25.81.139" dyno= connect= service= status=503 bytes= protocol=https
-2017-12-14T11:35:23.319947+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=candyland2.herokuapp.com request_id=bc4ed434-be85-4f3d-b4b1-691c87abcf2e fwd="2.25.81.139" dyno= connect= service= status=503 bytes= protocol=https
+2017-12-14T12:05:14.961722+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+2017-12-14T12:05:14.961725+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 43, in inner
+2017-12-14T12:05:14.961726+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 93, in response_for_exception
+2017-12-14T12:05:14.961724+00:00 app[web.1]:     response = self.get_response(request)
+2017-12-14T12:05:14.961726+00:00 app[web.1]:     response = response_for_exception(request, exc)
+2017-12-14T12:05:14.961728+00:00 app[web.1]:     callback, param_dict = resolver.resolve_error_handler(500)
+2017-12-14T12:05:14.961728+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 142, in handle_uncaught_exception
+2017-12-14T12:05:14.961724+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/deprecation.py", line 140, in __call__
+2017-12-14T12:05:14.961727+00:00 app[web.1]:     response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+2017-12-14T12:05:14.961729+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/urls/resolvers.py", line 418, in resolve_error_handler
+2017-12-14T12:05:14.961730+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+2017-12-14T12:05:14.961730+00:00 app[web.1]:     callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+2017-12-14T12:05:14.961732+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+2017-12-14T12:05:14.961733+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2017-12-14T12:05:14.961732+00:00 app[web.1]:     return import_module(self.urlconf_name)
+2017-12-14T12:05:14.961731+00:00 app[web.1]:     res = instance.__dict__[self.name] = self.func(instance)
+2017-12-14T12:05:14.961733+00:00 app[web.1]:     __import__(name)
+2017-12-14T12:05:14.961735+00:00 app[web.1]:     from settings.base import MEDIA_ROOT
+2017-12-14T12:05:14.961736+00:00 app[web.1]:     ALLOWED_HOSTS = [candyland2.herokuapp.com]
+2017-12-14T12:05:14.961736+00:00 app[web.1]: NameError: name 'candyland2' is not defined
+2017-12-14T12:05:14.962522+00:00 app[web.1]: Traceback (most recent call last):
+2017-12-14T12:05:14.962521+00:00 app[web.1]: Internal Server Error: /
+2017-12-14T12:05:14.962523+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+2017-12-14T12:05:14.962524+00:00 app[web.1]:     response = get_response(request)
+2017-12-14T12:05:14.961735+00:00 app[web.1]:   File "/app/CandyLand/settings.py", line 28, in <module>
+2017-12-14T12:05:14.962525+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/deprecation.py", line 140, in __call__
+2017-12-14T12:05:14.962526+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 43, in inner
+2017-12-14T12:05:14.962526+00:00 app[web.1]:     response = response_for_exception(request, exc)
+2017-12-14T12:05:14.962527+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 93, in response_for_exception
+2017-12-14T12:05:14.962528+00:00 app[web.1]:     response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+2017-12-14T12:05:14.962529+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 142, in handle_uncaught_exception
+2017-12-14T12:05:14.962531+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+2017-12-14T12:05:14.962531+00:00 app[web.1]:     callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+2017-12-14T12:05:14.962529+00:00 app[web.1]:     callback, param_dict = resolver.resolve_error_handler(500)
+2017-12-14T12:05:14.962532+00:00 app[web.1]:     res = instance.__dict__[self.name] = self.func(instance)
+2017-12-14T12:05:14.962530+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/urls/resolvers.py", line 418, in resolve_error_handler
+2017-12-14T12:05:14.962532+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+2017-12-14T12:05:14.962533+00:00 app[web.1]:     return import_module(self.urlconf_name)
+2017-12-14T12:05:14.962534+00:00 app[web.1]:     __import__(name)
+2017-12-14T12:05:14.962525+00:00 app[web.1]:     response = self.get_response(request)
+2017-12-14T12:05:14.962534+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2017-12-14T12:05:14.962535+00:00 app[web.1]:   File "/app/CandyLand/urls.py", line 25, in <module>
+2017-12-14T12:05:14.962542+00:00 app[web.1]:     ALLOWED_HOSTS = [candyland2.herokuapp.com]
+2017-12-14T12:05:14.962536+00:00 app[web.1]:   File "/app/CandyLand/settings.py", line 28, in <module>
+2017-12-14T12:05:14.962535+00:00 app[web.1]:     from settings.base import MEDIA_ROOT
+2017-12-14T12:05:14.962543+00:00 app[web.1]: NameError: name 'candyland2' is not defined
+2017-12-14T12:05:14.963243+00:00 app[web.1]: Traceback (most recent call last):
+2017-12-14T12:05:14.963241+00:00 app[web.1]: Internal Server Error: /
+2017-12-14T12:05:14.963244+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+2017-12-14T12:05:14.963245+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/deprecation.py", line 140, in __call__
+2017-12-14T12:05:14.963244+00:00 app[web.1]:     response = get_response(request)
+2017-12-14T12:05:14.963246+00:00 app[web.1]:     response = self.get_response(request)
+2017-12-14T12:05:14.963246+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 43, in inner
+2017-12-14T12:05:14.963248+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 93, in response_for_exception
+2017-12-14T12:05:14.963249+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 142, in handle_uncaught_exception
+2017-12-14T12:05:14.963248+00:00 app[web.1]:     response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+2017-12-14T12:05:14.963250+00:00 app[web.1]:     callback, param_dict = resolver.resolve_error_handler(500)
+2017-12-14T12:05:14.961734+00:00 app[web.1]:   File "/app/CandyLand/urls.py", line 25, in <module>
+2017-12-14T12:05:14.963251+00:00 app[web.1]:     callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+2017-12-14T12:05:14.963250+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/urls/resolvers.py", line 418, in resolve_error_handler
+2017-12-14T12:05:14.963252+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+2017-12-14T12:05:14.963252+00:00 app[web.1]:     res = instance.__dict__[self.name] = self.func(instance)
+2017-12-14T12:05:14.963253+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+2017-12-14T12:05:14.963254+00:00 app[web.1]:     return import_module(self.urlconf_name)
+2017-12-14T12:05:14.963254+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2017-12-14T12:05:14.963247+00:00 app[web.1]:     response = response_for_exception(request, exc)
+2017-12-14T12:05:14.963255+00:00 app[web.1]:     __import__(name)
+2017-12-14T12:05:14.963255+00:00 app[web.1]:   File "/app/CandyLand/urls.py", line 25, in <module>
+2017-12-14T12:05:14.963256+00:00 app[web.1]:     from settings.base import MEDIA_ROOT
+2017-12-14T12:05:14.963256+00:00 app[web.1]:   File "/app/CandyLand/settings.py", line 28, in <module>
+2017-12-14T12:05:14.963258+00:00 app[web.1]: NameError: name 'candyland2' is not defined
+2017-12-14T12:05:14.963257+00:00 app[web.1]:     ALLOWED_HOSTS = [candyland2.herokuapp.com]
+2017-12-14T12:05:14.964539+00:00 app[web.1]: Traceback (most recent call last):
+2017-12-14T12:05:14.964538+00:00 app[web.1]: [2017-12-14 12:05:14 +0000] [10] [ERROR] Error handling request /
+2017-12-14T12:05:14.964542+00:00 app[web.1]:     respiter = self.wsgi(environ, resp.start_response)
+2017-12-14T12:05:14.964541+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 171, in handle_request
+2017-12-14T12:05:14.964541+00:00 app[web.1]:     self.handle_request(listener, req, client, addr)
+2017-12-14T12:05:14.964540+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 130, in handle
+2017-12-14T12:05:14.964543+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 157, in __call__
+2017-12-14T12:05:14.964544+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/base.py", line 124, in get_response
+2017-12-14T12:05:14.964545+00:00 app[web.1]:     response = self._middleware_chain(request)
+2017-12-14T12:05:14.964545+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 43, in inner
+2017-12-14T12:05:14.964546+00:00 app[web.1]:     response = response_for_exception(request, exc)
+2017-12-14T12:05:14.964546+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 93, in response_for_exception
+2017-12-14T12:05:14.964548+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/core/handlers/exception.py", line 142, in handle_uncaught_exception
+2017-12-14T12:05:14.964547+00:00 app[web.1]:     response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+2017-12-14T12:05:14.964549+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/urls/resolvers.py", line 418, in resolve_error_handler
+2017-12-14T12:05:14.964548+00:00 app[web.1]:     callback, param_dict = resolver.resolve_error_handler(500)
+2017-12-14T12:05:14.964550+00:00 app[web.1]:     callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+2017-12-14T12:05:14.964550+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+2017-12-14T12:05:14.964551+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+2017-12-14T12:05:14.964551+00:00 app[web.1]:     res = instance.__dict__[self.name] = self.func(instance)
+2017-12-14T12:05:14.964552+00:00 app[web.1]:     return import_module(self.urlconf_name)
+2017-12-14T12:05:14.964543+00:00 app[web.1]:     response = self.get_response(request)
+2017-12-14T12:05:14.964553+00:00 app[web.1]:     __import__(name)
+2017-12-14T12:05:14.964552+00:00 app[web.1]:   File "/app/.heroku/python/lib/python2.7/importlib/__init__.py", line 37, in import_module
+2017-12-14T12:05:14.964556+00:00 app[web.1]: NameError: name 'candyland2' is not defined
+2017-12-14T12:05:14.964555+00:00 app[web.1]:   File "/app/CandyLand/settings.py", line 28, in <module>
+2017-12-14T12:05:14.964554+00:00 app[web.1]:   File "/app/CandyLand/urls.py", line 25, in <module>
+2017-12-14T12:05:14.964555+00:00 app[web.1]:     ALLOWED_HOSTS = [candyland2.herokuapp.com]
+2017-12-14T12:05:14.964554+00:00 app[web.1]:     from settings.base import MEDIA_ROOT
