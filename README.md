@@ -45,7 +45,7 @@ on by itself and integrated at a later stage when complete.
 
 If you feel you would like to develop this further you are more then welcome to. Just clone this repository
 by running the `git clone https://github.com/bugdude01/candyland2` command. Once you have that in place make
-sure you install the requirements in the requirements/base.txt folder and away tou go!
+sure you install the requirements in the requirements/base.txt folder and away you go!
 
 Feel free so share any findings you have, suggested improvements etc., as all suggestions are welcome. Also, if
 you find any bugs / issues, please let me know. We are all learning all the time and no developer should be an
